@@ -3,7 +3,7 @@
 ## HTTP Mindmap
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#ffffff','primaryTextColor':'#1f2937','primaryBorderColor':'#9ca3af','lineColor':'#d1d5db','secondaryColor':'#f9fafb','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#f9fafb','tertiaryBkg':'#ffffff','fontSize':'16px'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f97316','primaryTextColor':'#ffffff','primaryBorderColor':'#ea580c','lineColor':'#94a3b8','secondaryColor':'#14b8a6','secondaryTextColor':'#ffffff','tertiaryColor':'#ec4899','tertiaryTextColor':'#ffffff','background':'#ffffff','fontSize':'16px'}}}%%
 mindmap
   root((HTTP))
     What Is HTTP

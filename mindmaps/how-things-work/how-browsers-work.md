@@ -3,7 +3,7 @@
 ## Browser Mindmap
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#ffffff','primaryTextColor':'#1f2937','primaryBorderColor':'#9ca3af','lineColor':'#d1d5db','secondaryColor':'#f9fafb','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#f9fafb','tertiaryBkg':'#ffffff','fontSize':'16px'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#3b82f6','primaryTextColor':'#ffffff','primaryBorderColor':'#2563eb','lineColor':'#94a3b8','secondaryColor':'#10b981','secondaryTextColor':'#ffffff','tertiaryColor':'#a855f7','tertiaryTextColor':'#ffffff','background':'#ffffff','fontSize':'16px'}}}%%
 mindmap
   root((Browser))
     Main Parts
