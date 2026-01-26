@@ -3,35 +3,35 @@
 ## Browser Mindmap
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#6366f1','primaryTextColor':'#fff','primaryBorderColor':'#4f46e5','lineColor':'#818cf8','secondaryColor':'#a5b4fc','tertiaryColor':'#e0e7ff','background':'#f0f4ff','mainBkg':'#6366f1','secondaryBkg':'#a5b4fc','tertiaryBkg':'#e0e7ff'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#ffffff','primaryTextColor':'#1f2937','primaryBorderColor':'#9ca3af','lineColor':'#d1d5db','secondaryColor':'#f9fafb','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondaryBkg':'#f9fafb','tertiaryBkg':'#ffffff','fontSize':'16px'}}}%%
 mindmap
   root((Browser))
-    Components
+    Main Parts
       User Interface
       Rendering Engine
       JavaScript Engine
       Networking
     
-    Process
+    The Process
       Type URL
       DNS Lookup
       Send Request
-      Receive Response
-      Parse HTML/CSS
-      Render Page
-      Execute Scripts
+      Receive Files
+      Parse Code
+      Render Display
+      Run Scripts
     
-    Functions
-      Display Web Pages
-      Navigate
+    What It Does
+      Display Pages
+      Navigate Web
       Store Data
-      Security
+      Security Features
     
     Technologies
-      HTML
-      CSS
-      JavaScript
-      HTTP/HTTPS
+      HTML Structure
+      CSS Styling
+      JavaScript Logic
+      HTTP Protocol
 ```
 
 ---
