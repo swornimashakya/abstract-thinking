@@ -1,8 +1,9 @@
-# How a Browser Works - Mindmap
+# How a Browser Works
 
 ## Browser Mindmap
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#6366f1','primaryTextColor':'#fff','primaryBorderColor':'#4f46e5','lineColor':'#818cf8','secondaryColor':'#a5b4fc','tertiaryColor':'#e0e7ff','background':'#f0f4ff','mainBkg':'#6366f1','secondaryBkg':'#a5b4fc','tertiaryBkg':'#e0e7ff'}}}%%
 mindmap
   root((Browser))
     Components
