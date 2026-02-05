@@ -1,0 +1,47 @@
+@startuml
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+skinparam MaxMessageSize 150
+
+actor "Customer" as C
+participant "Merchant" as M
+participant "Acquirer" as A
+participant "Card Network\n(Visa/MC)" as N
+participant "Issuer Bank" as I
+
+Note over I, C: Pre-requisite: Issuer issues card & credit/funds exist
+I -> C : Issues Card
+
+== Authorization Phase ==
+
+C -> M : Presents card (Dip/Tap/Swipe)
+M -> A : Sends Authorization Request
+A -> N : Forwards Request (via Gateway)
+N -> I : Routes request to Issuer
+
+alt #LightGreen Successful Auth
+    I -> I : Validate CVV, Expiry, & Balance
+    I -> I : **Place Lien Mark (Hold Funds)**
+    note right: Funds are blocked but\nnot yet transferred.
+    I -> N : Sends Authorization Response (00 - OK)
+    N -> A : Forwards Approval
+    A -> M : Confirms Payment (Auth Code)
+    M -> C : Provides Goods/Receipt
+else #Pink Declined
+
+    I -> N : Sends Decline Code (NSF/Fraud/Expired)
+    N -> A : Forwards Decline
+    A -> M : Transaction Failed
+    M -> C : Request alternative payment
+end
+
+== Clearing & Settlement (Post-Transaction) ==
+
+M -> A : Batch Close (End of Day)
+A -> N : Clearing Request
+N -> I : Deduct funds (Finalize Lien)
+I -> N : Funds Transferred
+N -> A : Funds Transferred
+A -> M : Settlement to Merchant Account
+
+@enduml

@@ -1,0 +1,35 @@
+@startmindmap
+caption Tech Project Lifecycle
+title Project Initiation
+
+* **Project Start**
+
+right side
+** 1. Discovery
+***_ [links to]
+**** Stakeholder Interviews
+**** Market Research
+***_ [leads to]
+**** Project Charter
+** 2. Requirements
+***_ [defined by]
+**** User Stories
+**** Functional Specs
+***_ [visualized by]
+**** UI/UX Wireframes
+
+left side
+** 3. Execution Roadmap
+***_ [organized into]
+**** Sprints / Milestones
+**** Resource Allocation
+***_ [protected by]
+**** Risk Mitigation Plan
+
+** 4. Technical Strategy
+***_ [informed by]
+**** Architecture Design
+**** Tech Stack Selection
+***_ [validated by]
+**** Proof of Concept (PoC)
+@endmindmap

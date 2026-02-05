@@ -27,3 +27,12 @@ Activity diagrams are visual representations of workflows and processes. They sh
 - **Communication**: Bridges gaps between technical and non-technical stakeholders
 - **Analysis**: Helps identify redundancies and optimization opportunities
 - **Standardization**: Ensures everyone follows the same process
+
+This folder contains activity diagrams and related documentation that illustrate workflows, processes, and technical flows.
+
+## Files in this folder
+
+- **browser-rendering.md**: Explains the browser rendering process, detailing how HTML, CSS, and JavaScript are transformed into a visual web page.
+- **how-computer-boots-OS.puml**: PlantUML diagram showing the step-by-step process of how a computer boots and loads the operating system.
+- **http-server-request.md**: Describes the stages of how an HTTP server handles client requests and sends responses.
+- **project-initiation-flow.puml**: PlantUML diagram outlining the phases and steps involved in initiating and planning a technology project.

@@ -1,0 +1,30 @@
+@startuml
+skinparam ActivityBackgroundColor #ffb83e
+skinparam ActivityBorderColor #333
+title Computer Boot Flow
+
+start
+:<b>1. Power On</b>\nElectricity flows to the motherboard;
+
+:<b>2. Health Check (POST)</b>\nHardware checks if it's healthy;
+
+if (Hardware OK?) then (No)
+    :Stop & Beep/Error;
+    end
+else (Yes)
+    :<b>3. Finding the OS</b>\nFirmware looks for a bootable disk;
+endif
+
+partition "The Bridge (Bootloader)" {
+    :Load the tiny "Starter" program;
+    :Find and load the OS Kernel;
+}
+
+partition "The OS Takes Over" {
+    :Initialize Drivers (Mouse, Keyboard, Screen);
+    :Start Background Services (Wi-Fi, Security);
+}
+
+:<b>4. Login Screen</b>\nReady for user input;
+stop
+@enduml

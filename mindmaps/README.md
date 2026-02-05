@@ -91,3 +91,12 @@ A mindmap is a visual diagram that organizes thoughts like a tree - one main ide
 Mindmapping improves with practice. Start small with simple topics. There are no strict rules - if it works for you, it's right.
 
 **The goal: Think more clearly and remember better.**
+
+This folder contains mindmaps and related documentation to help visualize and organize complex ideas, processes, and technical concepts.
+
+## Files in this folder
+
+- **how-things-work/**: Subfolder containing markdown documents that explain how various systems and technologies function, using mindmaps and detailed breakdowns.
+	- **how-browsers-work.md**: Explains the internal workings of a web browser, including its main components and the process from entering a URL to rendering a web page. Includes a Mermaid mindmap for visualization.
+	- **how-http-works.md**: Describes the HTTP protocol, its request/response model, and key concepts such as methods, headers, and statelessness. Includes a Mermaid mindmap for visualization.
+    - **project-initiation-flow.puml**: PlantUML mindmap diagram outlining the lifecycle and phases of a technology project initiation.
